@@ -24,7 +24,7 @@ a {
 }
 
 /* Button and volunteer declarations */
-.button-1, .button-2, .volunteer {
+.button-1, .button-2, .volunteer-section {
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -87,6 +87,7 @@ a {
     border-radius: 12px;
     border-style: none;
     padding: 10px 30px;
+    font-weight: 900;
 
 }
 
@@ -134,8 +135,14 @@ a {
     display: flex;
     justify-content: center;
     padding: 100px;
-    text-align: justify;
     margin-bottom: 32px;
+}
+
+.quotes {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    padding: 10px;
 }
 
 .quote {
@@ -149,44 +156,51 @@ a {
 .quote-name {
     font-weight: 900;
     color: #1F2937;
-    text-align: right;
+    display: flex;
+    align-items: flex-start;
 }
 
  /* section 3 content*/
- #section-3 {
+#section-3 {
     padding: 100px;
- }
+}
 
- .volunteer-section {
+.volunteer-section {
     border-radius: 10px;
-    padding: 50px;
-    gap: 16px;
+    padding: 30px;
     display: flex;
     justify-content: center;
- }
+    align-items: flex-start;
+}
 
- .volunteer {
-    display: flex;
-    justify-content: center;
- }
+.vol-info {
+    flex: 1;
+    padding: 30px;
+}
 
- .volunteer-title {
-    font-size: 18px;
+.volunteer-title {
+    font-size: 24px;
     font-weight: 900;
+    display: flex;
+    align-items: flex-start;
     text-align: left;
- }
+    margin-bottom: 8px;
+}
 
- .volunteer-text {
+.volunteer-text {
+    display: flex;
+    align-items: flex-start;
     text-align: left;
- }
+    width: 500px;
+}
 
 .button-2 {
     border-color: #F9FAF8;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-    max-width: 100px;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-weight: 900;
 }
 
 
