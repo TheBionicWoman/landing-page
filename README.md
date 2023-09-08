@@ -4,6 +4,8 @@ We learned about flexbox layouts, and I will be implementing flexbox for this pr
 
 Credit for images used goes to:
 pixabay: Memed_Nurrohmad https://pixabay.com/users/memed_nurrohmad-3307648/
+        OpenClipart-Vectors https://pixabay.com/users/openclipart-vectors-30363/
+        
 pexels: fauxels https://www.pexels.com/@fauxels/
         Karolina Grabowska https://www.pexels.com/@karolina-grabowska/
         Jens Mahnke https://www.pexels.com/@atomlaborblog/
