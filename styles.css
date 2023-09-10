@@ -120,6 +120,11 @@ a {
     gap: 16px;
 }
 
+.image-anchor {
+    color: black;
+    text-decoration: underline;
+}
+
 .image {
     max-width: 200px;
 }
@@ -141,10 +146,8 @@ a {
 }
 
 .quotes {
-    display: flex;
-    align-items: flex-start;
-    flex: 1;
-    padding: 10px;
+    padding: 0px 150px;
+    margin: 0px 50px;
 }
 
 .quote {
@@ -152,14 +155,16 @@ a {
     font-weight: light;
     font-size: 36px;
     color: #1F2937;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .quote-name {
     font-weight: 900;
+    font-size: 24px;
     color: #1F2937;
-    display: flex;
-    align-items: flex-start;
+    text-align: right;
+    margin-right: 100px;
 }
 
  /* section 3 content*/
@@ -169,15 +174,12 @@ a {
 
 .volunteer-section {
     border-radius: 10px;
-    padding: 30px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-}
-
-.vol-info {
+    align-items: center;
     flex: 1;
-    padding: 30px;
+    padding: 50px 100px;
+    gap: 80px;
 }
 
 .volunteer-title {
@@ -192,23 +194,25 @@ a {
 .volunteer-text {
     display: flex;
     align-items: flex-start;
-    text-align: left;
-    width: 500px;
+    text-align: justify;
+    width: 600px;
 }
 
 .button-2 {
     border-color: #F9FAF8;
-    display: flex;
-    align-items: center;
     border-radius: 12px;
     padding: 10px 30px;
     font-weight: 900;
+    margin-top: 20px;
 }
+
 
 
 /* footer */
 #footer {
     background-color: #1F2937;
+    font-size: 16px;
+    text-align: center;
     color: white;
-    padding: 8px 100px;
+    padding: 40px 100px;
 }
